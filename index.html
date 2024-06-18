@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- top hero section -->
     <div class="hero-container">
       <div class="container">
-        <div class="img-container">
-          <img src="./images/hero_image.jpg" alt="Ashley Williams" />
+        <div class="img-container hero__img-container margin-bottom_10">
+          <img
+            src="./images/hero_image.jpg"
+            class="img"
+            alt="Ashley Williams"
+          />
+          <p class="img-text">Ashley Williams</p>
         </div>
-        <div class="hero-text-container">
+        <div class="hero-text-container d-flex__col align-items__center">
           <h1 class="hero-header">About me</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
@@ -21,13 +27,10 @@
             exercitationem eius asperiores debitis! Temporibus, similique
             voluptatibus!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            voluptatibus nihil nam, dolores dignissimos neque ratione
-            perferendis assumenda iste voluptas quisquam eius soluta vel velit
-            mollitia nemo voluptate quos eum.
-          </p>
-          <div class="bottom-link icon-group">
+
+          <div
+            class="bottom-link icon-group d-flex__row gap_18 margin-bottom_10 margin-top_10"
+          >
             <span class="icon-container">
               <img
                 src="./images/github.svg"
@@ -48,18 +51,26 @@
       </div>
     </div>
     <!-- projects section -->
-    <section class="projects">
+    <section
+      class="projects margin-bottom_10 margin-top_10 padding-bottom_60 padding-top_60"
+    >
       <div class="container">
-        <h2>My Work</h2>
-        <div class="projects-container">
+        <h2 class="projects-section__header text-align__center">My Work</h2>
+        <div class="projects-container d-flex__col gap_18">
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_1"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_1"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div
+              class="project-details-container padding_12 d-flex__col gap_10"
+            >
+              <div
+                class="project-title d-flex__row justify-content__space-between align-items__center"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -78,22 +89,24 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of the project. Just a couple sentences will
+                  do
                 </p>
               </div>
             </div>
           </div>
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_2"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_2"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div class="project-details-container padding_12 d-flex__col gap_4">
+              <div
+                class="project-title d-flex__row justify-content__space-between jus"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -112,22 +125,24 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of your project. Just a couple sentences
+                  will do.
                 </p>
               </div>
             </div>
           </div>
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_3"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_3"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div class="project-details-container padding_12 d-flex__col gap_4">
+              <div
+                class="project-title d-flex__row justify-content__space-between jus"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -146,22 +161,24 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of your project. Just a couple sentences
+                  will do.
                 </p>
               </div>
             </div>
           </div>
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_4"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_4"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div class="project-details-container padding_12 d-flex__col gap_4">
+              <div
+                class="project-title d-flex__row justify-content__space-between jus"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -180,22 +197,24 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of your project. Just a couple sentences
+                  will do.
                 </p>
               </div>
             </div>
           </div>
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_5"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_5"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div class="project-details-container padding_12 d-flex__col gap_4">
+              <div
+                class="project-title d-flex__row justify-content__space-between jus"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -214,22 +233,24 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of your project. Just a couple sentences
+                  will do.
                 </p>
               </div>
             </div>
           </div>
           <div class="project project-card">
             <div
-              class="project-img-container placeholder-img placeholder-img_6"
-            ></div>
-            <div class="project-details-container">
-              <div class="project-title">
-                <h2 class="project-card-title">Project Name</h2>
-                <div class="icon-group">
+              class="project-img-container d-flex__row align-items__center justify-content__center placeholder-img placeholder-img_6"
+            >
+              <p class="placeholder-img-text">screenshot of the project</p>
+            </div>
+            <div class="project-details-container padding_12 d-flex__col gap_4">
+              <div
+                class="project-title d-flex__row justify-content__space-between jus"
+              >
+                <h2 class="project-card-title margin-bottom_0">Project Name</h2>
+                <div class="gap_4 icon-group d-flex__row">
                   <a href="#" class="icon-container"
                     ><img
                       src="./images/github.svg"
@@ -248,10 +269,8 @@
               </div>
               <div class="project-desc">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Animi a porro nemo, sed, odit velit labore perspiciatis ipsum
-                  quisquam nihil totam architecto magni error sequi, libero
-                  dolore. Iusto, possimus natus?
+                  Short description of your project. Just a couple sentences
+                  will do.
                 </p>
               </div>
             </div>
@@ -260,31 +279,46 @@
       </div>
     </section>
     <!-- footer section -->
-     <footer class="footer">
-      <div class="container">
-        <h1 class="footer-title">Contact me</h1>
+    <footer class="footer">
+      <div class="padding_12">
+        <h1 class="footer-title text-align__center">Contact me</h1>
         <p>
-          Please get in touch if you think our work could be mutually beneficial
+          Please get in touch if you think our work could be mutually
+          beneficial!
         </p>
 
-        <div class="icon-group">
-          <a href="#" class="icon-container">
-            <img src="./images/github.svg" alt="GitHub Icon">
+        <address class="d-flex__col gap_18 margin-bottom_30 margin-top_10">
+          <p>
+            6, Oyenekan Street<br />
+            Mushin, Lagos State<br />
+            Nigeria
+          </p>
+
+          <p class="d-flex__col gap_10">
+            <a href="mailto:alfredfaith35@gmail.com">alfredfaith35@gmail.com</a>
+            <a href="tel:+234911-242-0253">234-911-242-0253</a>
+          </p>
+        </address>
+
+        <div
+          class="icon-group align-items__center justify-content__center gap_10 d-flex__row margin-bottom_10 margin-top_10"
+        >
+          <a href="#" class="icon-container__big">
+            <img src="./images/github.svg" class="img" alt="GitHub Icon" />
           </a>
 
-          <a href="#" class="icon-container">
-            <img src="./images/linkedin.svg" alt="LinkedIn Icon">
+          <a href="#" class="icon-container__big">
+            <img src="./images/linkedin.svg" class="img" alt="LinkedIn Icon" />
           </a>
 
-          <a href="#" class="icon-container">
-            <img src="./images/twitter.svg" alt="Twitter Icon">
+          <a href="#" class="icon-container__big">
+            <img src="./images/twitter.svg" class="img" alt="Twitter Icon" />
           </a>
-        </div>
-
-        <div class="img-container img-container__footer">
-          <img src="./images/hero_image.jpg" alt="Ashley Williams">
         </div>
       </div>
-     </footer>
+      <div class="img-container img-container__footer">
+        <img src="./images/hero_image.jpg" class="img" alt="Ashley Williams" />
+      </div>
+    </footer>
   </body>
 </html>
