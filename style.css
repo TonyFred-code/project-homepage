@@ -41,7 +41,7 @@ a {
 
 .container {
   max-width: 1125px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -191,8 +191,8 @@ a {
   gap: 30px;
 }
 
-.project-card {
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+.project-details-container {
+  box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.15);
 }
 /* PROJECTS SECTION END */
 
@@ -203,9 +203,6 @@ a {
   color: var(--white);
 }
 
-.img-container__footer {
-  height: 200px;
-}
 /* FOOTER SECTION ENDS */
 
 @media (min-width: 768px) {
@@ -225,21 +222,19 @@ a {
 
   .footer {
     display: grid;
-    grid-template-columns: 35% 60%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-around;
+    padding: 12px;
+    gap: 12px;
   }
 
   .footer-title {
     text-align: left;
   }
 
-  .footer .img-container__footer {
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
+  .footer .icon-group {
+    justify-content: flex-start;
   }
 }
 
