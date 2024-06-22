@@ -279,7 +279,9 @@
       </div>
     </section>
     <!-- footer section -->
-    <footer class="footer">
+    <footer
+      class="footer d-flex__col justify-content__center align-items__center gap_10"
+    >
       <div class="padding_12">
         <h1 class="footer-title text-align__center">Contact me</h1>
         <p>
@@ -294,10 +296,30 @@
             Nigeria
           </p>
 
-          <p class="d-flex__col gap_10">
-            <a href="mailto:alfredfaith35@gmail.com">alfredfaith35@gmail.com</a>
-            <a href="tel:+234911-242-0253">234-911-242-0253</a>
-          </p>
+          <div class="d-flex__col gap_10">
+            <p>
+              <a
+                href="mailto:alfredfaith35@gmail.com"
+                class="d-flex__row gap_10 align-items__center"
+              >
+                <span class="icon-container">
+                  <img src="./images/email-outline.svg" alt="Email Icon" />
+                </span>
+                alfredfaith35@gmail.com</a
+              >
+            </p>
+            <p>
+              <a
+                class="d-flex__row gap_10 align-items__center"
+                href="tel:+234911-242-0253"
+              >
+                <span class="icon-container">
+                  <img src="./images/phone.svg" alt="Telephone Icon" />
+                </span>
+                234-911-242-0253</a
+              >
+            </p>
+          </div>
         </address>
 
         <div
@@ -316,7 +338,9 @@
           </a>
         </div>
       </div>
-      <div class="img-container img-container__footer">
+      <div
+        class="img-container img-container__footer d-flex__col justify-content__center align-items__center"
+      >
         <img src="./images/hero_image.jpg" class="img" alt="Ashley Williams" />
       </div>
     </footer>
