@@ -349,7 +349,14 @@
       <div
         class="img-container img-container__footer d-flex__col justify-content__center align-items__center"
       >
-        <img src="./images/hero_image.jpg" class="img" alt="Ashley Williams" />
+        <picture>
+          <source srcset="./images/hero_image.jpg" media="(min-width: 768px)" />
+          <img
+            class="img"
+            src="./images/hero_image_portrait.jpg"
+            alt="Ashley Williams"
+          />
+        </picture>
       </div>
     </footer>
   </body>
